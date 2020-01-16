@@ -1,0 +1,15 @@
+INSERT INTO `serviceconfig` VALUES 
+(1,'JPOSSERVER','STRING','127.0.0.1')
+,(2,'JPOSAUTORIZACIONESPORT','INT','10601')
+,(3,'JPOSPRECARGADASPORT','INT','10603')
+,(4,'JPOSCONSULTASPORT','INT','10602')
+,(5,'RELOADCONFIGS','BOOL','0')
+,(6,'DERIVOMENUPRINCIPAL','String','NIVRCMenu|s|inicio')
+,(7,'DERIVOOPERADOR','String','NIVRCDesvioOperador|XXCR|inicio')
+,(8,'PIDEDNI','BOOL','1')
+,(9,'DERIVOPPALCREDICOOP','STRING','NIVRCentrada,s,inicio')
+,(10,'DERIVOMENUTARJETA','STRING','NIVRCMenu,entrada,inicio')
+,(11,'HORARIOSCONNSTRING','STRING','jdbc:mysql://10.64.42.68:3306/horarios?zeroDateTimeBehavior=convertToNull')
+,(12,'HORARIOSUSER','STRING','lsantagata')
+,(13,'HORARIOSPWD','STRING','luciano123');
+

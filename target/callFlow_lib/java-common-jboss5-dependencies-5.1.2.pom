@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<artifactId>credicoop-base</artifactId>
+		<groupId>coop.bancocredicoop.base</groupId>
+		<version>2.6</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>coop.bancocredicoop.proyectos.common</groupId>
+	<artifactId>java-common-jboss5-dependencies</artifactId>
+	<version>5.1.2</version>
+	<packaging>pom</packaging>
+	<name>java-common-jboss5-dependencies</name>
+	<description>Proyecto para incorporar las librerias de jboss necesarias en una determinada version y que sean independientes de las aplicaciones, evitando asi el manejo descentralizado</description>
+	<dependencies>
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-javaee</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jnp-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>concurrent</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>ejb3-persistence</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>hibernate-annotations</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>hibernate-commons-annotations</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-aop-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-appclient</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-aspect-jdk50-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-common-core</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-deployers-client-spi</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-deployers-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-deployers-core-spi</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-deployers-core</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-deployment</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-common-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-core-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-ext-api</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-proxy-clustered-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-proxy-impl-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-proxy-spi-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-security-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ejb3-vfs-spi</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ha-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-ha-legacy-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-iiop-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-integration</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-j2se</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-jsr77-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-logging-jdk</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-logging-log4j</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-logging-spi</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-mdr</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-remoting</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>javassist</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>trove</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>log4j</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-messaging-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-profileservice-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-security-spi</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-serialization</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-srp-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-system-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-system-jmx-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jbosscx-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jbossjts-integration</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jbossjts</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jbosssx-as-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jbosssx-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jmx-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jmx-invoker-adaptor-client</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>netty</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>slf4j-jboss-logging</artifactId>
+			<version>5.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>xmlsec</artifactId>
+			<version>5.1.2</version>
+		</dependency>
+
+	</dependencies>
+
+	<distributionManagement>
+		<site>
+			<id>siteServer</id>
+			<name>Sitio de documentacion del proyecto.</name>
+			<url>scp://${siteFolder}</url>
+		</site>
+	</distributionManagement>
+
+	<scm>
+		<connection>scm:svn:https://sapl0019lx.bancocredicoop.coop/svn/COMPONENTES-CREDICOOP/trunk/10-Desarrollo/externo/java-common-jboss5-dependencies/</connection>
+		<developerConnection>scm:svn:https://sapl0019lx.bancocredicoop.coop/svn/COMPONENTES-CREDICOOP/trunk/10-Desarrollo/externo/java-common-jboss5-dependencies/</developerConnection>
+	</scm>
+</project>
